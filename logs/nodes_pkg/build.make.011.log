@@ -1,10 +1,8 @@
-[35m[1mScanning dependencies of target _nodes_pkg_generate_messages_check_deps_Point[0m
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target geometry_msgs_generate_messages_py
-[35m[1mScanning dependencies of target _nodes_pkg_generate_messages_check_deps_PointStamped[0m
 [  0%] Built target _nodes_pkg_generate_messages_check_deps_Point
-[  0%] Built target _nodes_pkg_generate_messages_check_deps_PointStamped
 [  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _nodes_pkg_generate_messages_check_deps_PointStamped
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_cpp
@@ -12,30 +10,14 @@
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_eus
-[  6%] [34m[1mGenerating Python from MSG nodes_pkg/Point[0m
-[ 12%] [34m[1mGenerating Javascript code from nodes_pkg/Point.msg[0m
-[ 18%] [34m[1mGenerating Python from MSG nodes_pkg/PointStamped[0m
-[ 25%] [34m[1mGenerating Javascript code from nodes_pkg/PointStamped.msg[0m
-[ 31%] [34m[1mGenerating Python msg __init__.py for nodes_pkg[0m
+[ 18%] Built target nodes_pkg_generate_messages_py
 [ 31%] Built target nodes_pkg_generate_messages_nodejs
-[ 37%] [34m[1mGenerating C++ code from nodes_pkg/Point.msg[0m
-[ 37%] Built target nodes_pkg_generate_messages_py
-[ 43%] [34m[1mGenerating Lisp code from nodes_pkg/Point.msg[0m
-[ 50%] [34m[1mGenerating Lisp code from nodes_pkg/PointStamped.msg[0m
-[ 50%] Built target nodes_pkg_generate_messages_lisp
-[ 56%] [34m[1mGenerating EusLisp code from nodes_pkg/Point.msg[0m
-[ 62%] [34m[1mGenerating C++ code from nodes_pkg/PointStamped.msg[0m
-[ 68%] [34m[1mGenerating EusLisp code from nodes_pkg/PointStamped.msg[0m
-[ 75%] [34m[1mGenerating EusLisp manifest code for nodes_pkg[0m
-[ 75%] Built target nodes_pkg_generate_messages_cpp
-[35m[1mScanning dependencies of target lognode[0m
-[ 81%] [32mBuilding CXX object CMakeFiles/lognode.dir/src/lognode.cpp.o[0m
-[ 81%] Built target nodes_pkg_generate_messages_eus
+[ 43%] Built target nodes_pkg_generate_messages_cpp
+[ 56%] Built target nodes_pkg_generate_messages_lisp
+[ 75%] Built target nodes_pkg_generate_messages_eus
 [35m[1mScanning dependencies of target interface[0m
-[ 87%] [32mBuilding CXX object CMakeFiles/interface.dir/src/interface.cpp.o[0m
-[ 93%] [32m[1mLinking CXX executable /home/eduponz/RobotProgramming/devel/.private/nodes_pkg/lib/nodes_pkg/lognode[0m
-[ 93%] Built target lognode
-[35m[1mScanning dependencies of target nodes_pkg_generate_messages[0m
+[ 87%] Built target lognode
+[ 93%] [32mBuilding CXX object CMakeFiles/interface.dir/src/interface.cpp.o[0m
 [ 93%] Built target nodes_pkg_generate_messages
 [01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:28:25:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
      float receivingx = -4.61;

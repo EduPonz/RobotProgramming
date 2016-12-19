@@ -1,0 +1,41 @@
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:28:25:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float receivingx = -4.61;
+[01;32m[K                         ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:29:25:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float receivingy = -0.0485;
+[01;32m[K                         ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:30:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float receivingd = 150;
+[01;32m[K                        ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:32:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float shippingx = -3.94;
+[01;32m[K                        ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:33:23:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float shippingy = 1.25;
+[01;32m[K                       ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:34:23:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float shippingd = 150;
+[01;32m[K                       ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:36:23:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float dockingx = -0.146;
+[01;32m[K                       ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:37:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float dockingy = 0.247;
+[01;32m[K                      ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:38:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float dockingd = 60;
+[01;32m[K                      ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:40:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int robot_choice = 0;
+[01;32m[K                        ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:[m[K In member function ‘[01m[Kvoid Interface::_publishTask(int, ros::Publisher)[m[K’:
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::std_msgs[m[K’ has not been declared
+         std_msgs::String task_msg;
+[01;32m[K         ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktask_msg[m[K’ was not declared in this scope
+         task_msg.data = task;
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/interface.dir/src/interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

@@ -1,0 +1,30 @@
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:28:25:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float receivingx = -4.61;
+[01;32m[K                         ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:29:25:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float receivingy = -0.0485;
+[01;32m[K                         ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:30:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float receivingd = 150;
+[01;32m[K                        ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:32:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float shippingx = -3.94;
+[01;32m[K                        ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:33:23:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float shippingy = 1.25;
+[01;32m[K                       ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:34:23:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float shippingd = 150;
+[01;32m[K                       ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:36:23:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float dockingx = -0.146;
+[01;32m[K                       ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:37:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float dockingy = 0.247;
+[01;32m[K                      ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:38:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     float dockingd = 60;
+[01;32m[K                      ^[m[K
+[01m[K/home/eduponz/RobotProgramming/src/nodes_pkg/src/interface.cpp:40:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int robot_choice = 0;
+[01;32m[K                        ^[m[K

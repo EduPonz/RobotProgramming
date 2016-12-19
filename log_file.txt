@@ -1,24 +1,23 @@
+The 'Checklist' operation has been received! 
 The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-4.61) (-0.0485) (150) 
+The operation has been received for the coordinates: (-3.94) (1.25) (150) 
 
 The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-4.61) (-0.0485) (150) 
+The operation has been received for the coordinates: (-3.49) (0.732) (330) 
 
 The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-4.61) (-0.0485) (150) 
+The operation has been received for the coordinates: (-3.94) (1.25) (150) 
 
 The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-4.61) (-0.0485) (150) 
+The operation has been received for the coordinates: (-3.94) (1.25) (150) 
 
 The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-4.61) (-0.0485) (150) 
+The operation has been received for the coordinates: (-3.94) (1.25) (150) 
 
-The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-2.47) (0.291) (150) 
-
+The 'Checklist' operation has been received! 
+The 'Checklist' operation has been received! 
+The 'Checklist' operation has been received! 
+The 'Checklist' operation has been received! 
 The 'Move' operation has been received! 
 The operation has been received for the coordinates: (-2.4) (-0.425) (330) 
-
-The 'Move' operation has been received! 
-The operation has been received for the coordinates: (-1.29) (-0.956) (150) 
 

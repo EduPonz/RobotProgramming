@@ -47,8 +47,11 @@ class Interface {
 
     void _publishTask (int t, ros::Publisher task_pub) {
         string task;
-        switch (t){
+         switch (t){
             case 1:
+                task = "Checklist";
+                break;
+            case 2:
                 task = "Move";
                 break;
         }
@@ -115,8 +118,9 @@ class Interface {
                 // Making a subscription to the rviz coordinate topic "clicked point"
                 click_sub = n.subscribe("clicked_point", 100, &Interface::_rvizClick, this);                             
                 // Will continue to initialize the callback function until a set of coordinates
-                // has been published from rviz (that will change the x_cor and y_cord values)
+                // has been published from rviz. i.e. the value of x coordinate changes.
                 while( (x_cor == 0) && (y_cor == 0)) {
+                    // Initialize call back function in a loop that will end when coordinates are found.
                     ros::spinOnce();  
                 }
                 point_msg.x = x_cor;  
@@ -209,17 +213,22 @@ class Interface {
         _owlBotFront();
         do {
             cout << endl << " Which task do you want to perfom?" << endl
-                 << "   Press 1 for Move"      << endl
-                 << "   Press 2 for Quit"      << endl
+                 << "   Press 1 for Checklist" << endl
+                 << "   Press 2 for Move"      << endl
+                 << "   Press 3 for Quit"      << endl
                  << " Your choice: ";
             cin >> task;
             switch (task){
                 case 1:
+                    _chooseRobot(robot_choice);
+                    _publishTask (task, task_pub);
+                    break;
+                case 2:
                     _publishTask (task, task_pub);
                     _moveInterface (coord_pub, n);
                     _chooseRobot(robot_choice);
                     break;
-                case 2:
+                case 3:
                     cout << endl << " Thanks for helping us with our hard work!" << endl;
                     _owlBotFront();
                     break;
@@ -228,7 +237,7 @@ class Interface {
                     break;
             }
         // Will continue to run the program as long as 3 is not the input for the variable "task"
-        }while(task != 2);
+        }while(task != 3);
     }
 
     void _owlBotFront () {
