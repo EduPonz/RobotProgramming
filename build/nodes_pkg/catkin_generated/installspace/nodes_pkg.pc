@@ -1,0 +1,8 @@
+prefix=/home/eduponz/RobotProgramming/install
+
+Name: nodes_pkg
+Description: Description of nodes_pkg
+Version: 0.0.0
+Cflags: -I/home/eduponz/RobotProgramming/install/include
+Libs: -L/home/eduponz/RobotProgramming/install/lib 
+Requires: 

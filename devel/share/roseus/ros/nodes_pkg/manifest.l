@@ -1,0 +1,1 @@
+/home/eduponz/RobotProgramming/devel/.private/nodes_pkg/share/roseus/ros/nodes_pkg/manifest.l

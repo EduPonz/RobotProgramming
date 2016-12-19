@@ -1,0 +1,1 @@
+/home/eduponz/RobotProgramming/devel/.private/nodes_pkg/share/gennodejs/ros/nodes_pkg/base_serialize.js

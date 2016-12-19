@@ -1,0 +1,1 @@
+/home/eduponz/RobotProgramming/devel/.private/nodes_pkg/share/common-lisp/ros/nodes_pkg/msg/_package_PointStamped.lisp

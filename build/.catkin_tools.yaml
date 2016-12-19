@@ -1,0 +1,6 @@
+devel_space: /home/eduponz/RobotProgramming/devel
+install: false
+install_space: /home/eduponz/RobotProgramming/install
+profile: default
+source_space: /home/eduponz/RobotProgramming/src
+workspace: /home/eduponz/RobotProgramming
