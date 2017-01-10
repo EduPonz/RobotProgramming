@@ -115,6 +115,7 @@ class Interface {
                 _orderProcessing (databaseOption, coord_pub);
                 break;
               case 5:
+                cout << "Open rViz and use the 'Publish Point' command to choose the desired coordinates." << endl;
                 // Making a subscription to the rviz coordinate topic "clicked point"
                 click_sub = n.subscribe("clicked_point", 100, &Interface::_rvizClick, this);                             
                 // Will continue to initialize the callback function until a set of coordinates
